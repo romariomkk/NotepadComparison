@@ -1,0 +1,17 @@
+group 'IndividWork1_NotepadComparison'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'net.java.dev.jna:jna:4.2.2'
+    compile 'net.java.dev.jna:jna-platform:4.2.2'
+    compile files('D:\\Files\\JavaLibs\\oshi-core-3.2.jar')
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="HandlerForm">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="63" y="175" width="352" height="71"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="cf482" class="javax.swing.JButton" binding="openProcessesButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Open Processes"/>
+        </properties>
+      </component>
+      <component id="22ac" class="javax.swing.JButton" binding="countAndCloseButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="Count And Close"/>
+          <verticalAlignment value="3"/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+      <component id="c427e" class="javax.swing.JCheckBox" binding="stateBox">
+        <constraints/>
+        <properties>
+          <text value="Kostyl/Native"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
