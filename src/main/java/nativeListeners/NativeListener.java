@@ -24,11 +24,11 @@ public class NativeListener {
             while (kernel32.Process32Next(processSnapshot, processEntry)) {
                 // looks for a specific process
                 if (Native.toString(processEntry.szExeFile).equalsIgnoreCase("notepad.exe")) {
-                    WindowsOperatingSystem sys = new WindowsOperatingSystem();
-                    OSProcess process = sys.getProcess(processEntry.th32ProcessID.intValue());
+                    //WindowsOperatingSystem sys = new WindowsOperatingSystem();
+                    //OSProcess process = sys.getProcess(processEntry.th32ProcessID.intValue());
 
                     System.out.println(processEntry.th32ProcessID + "\t" + Native.toString(processEntry.szExeFile) + "\t");
-                    System.out.println(process.getResidentSetSize());
+                    //System.out.println(process.getResidentSetSize());
                 }
 
             }
